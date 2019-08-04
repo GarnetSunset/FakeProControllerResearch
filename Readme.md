@@ -3,9 +3,9 @@ Runs a modified version of the official JoyCon(?) firmware. Appears on switch as
 
 Identifiers
 ======
-Mac Address starts with: 58:16:26 which is the identifier for Avaya(?).
+Mac Address starts with: ``58:16:26`` which is the identifier for Avaya(?).
 
-Serial Number for these units when connected to a switch or [jc-toolkit, as mentioned above](https://github.com/CTCaer/jc_toolkit) is 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.
+Serial Number for these units when connected to a switch or [jc-toolkit, as mentioned above](https://github.com/CTCaer/jc_toolkit) is ``0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF``.
 
 Registers as a left joycon on jc-toolkit, which would explain the non-functional home-to-wake function. (Could also just be jctoolkit being unable to read what it is and falling to default)
 
