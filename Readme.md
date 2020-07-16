@@ -7,7 +7,8 @@ Mac Address starts with: ``58:16:26`` which is the identifier for Avaya(?).
 
 Serial Number for these units when connected to a switch or [jc-toolkit, as mentioned above](https://github.com/CTCaer/jc_toolkit) is ``0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF``.
 
-Registers as a left joycon on jc-toolkit, which would explain the non-functional home-to-wake function. (Could also just be jctoolkit being unable to read what it is and falling to default)
+~~Registers as a left joycon on jc-toolkit, which would explain the non-functional home-to-wake function. (Could also just be jctoolkit being unable to read what it is and falling to default)~~
+After further research it is, indeed because the controller is missing an expensive broadcom chip. 
 
 Joycon/ProCon FW: 3.48
 
